@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>狐大医的个人展示页</title>
+    <link type="text/css" rel="stylesheet" href="//www.sohu.com/upload/mps0/frontweb/css/profile_index.min.css">
+</head>
+<body>
+<div class="header_bar">
+    <div class="bar_center">
+        <div class="center_left">
+            <a href="//www.sohu.com"><img src="//www.sohu.com/upload/mps0/frontweb/images/sohulogo.png"></a>
+            <a href="//mp.sohu.com">搜狐号</a>
+        </div>
+        <div class="center_right">
+            <div class="login"><a id="login">登录</a></div>
+            <ul>
+                <li>
+                    <div class="usericon"><i class="icons-user"></i></div>
+                </li>
+                <li><a class="username"><span></span><i class="icons-arrowdn"></i></a>
+                    <div class="list-box">
+                        <dl>
+                            <dd><a href="https://passport.sohu.com" target="_blank"><i
+                                    class="icons-avatar-mini"></i><span>个人中心</span></a></dd>
+                            <dd><a href="//mail.sohu.com" target="_blank"><i class="icons-email-mini"></i><span>我的邮箱</span></a>
+                            </dd>
+                            <dd><a href="//mp.sohu.com" target="_blank"><i
+                                    class="icons-media"></i><span>我的自媒体</span></a></dd>
+                            <dd><a href="//my.tv.sohu.com/user/home.do" target="_blank"><i class="icons-video"></i><span>我的搜狐视频</span></a>
+                            </dd>
+                            <dd><a href="//i.sohu.com" target="_blank"><i
+                                    class="icons-mysohu"></i><span>我的搜狐</span></a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li><a id="logout">退出</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="article_wrap">
+    <div class="article_left">
+        <div class="navbar"><a data-category-id="">最新</a><a data-category-id="-1">精选</a>
+        	       		       		<a data-category-id="120155">狐大医</a>
+                   		<a data-category-id="120157">金牌科室</a>
+                   		<a data-category-id="223347">领袖巡礼</a>
+                   		<a data-category-id="224232">观男者</a>
+                   		<a data-category-id="294003">肿瘤防控</a>
+                   		<a data-category-id="273616">搜狐营销</a>
+                                </div>
+        <div class="loading">加载中...</div>
+        <div id="loadingbar">加载更多</div>
+    </div>
+    <div class="article_right">
+        <div class="profile_all"><img src="http://sucimg.itc.cn/avatarimg/7d87962c05d449439223efabf39ae01c_1497338638800">
+            <div class="profile_info">
+                <div class="profile_title">
+                    <p id='ff'>狐大医</p>
+                </div>
+                <div class="profile_content">
+                    <p>【狐大医】是由搜狐网健康频道运营的唯一官方账号。本账号发布权威、主流、精准的健康科普文章。</p>
+                </div>
+            </div>
+        </div>
+        <div class="data_all">
+            <div class="data_acticle">
+                <p>2206</p>
+                <p>文章数</p>
+            </div>
+            <div class="data_read">
+                <p>3.6亿</p>
+                <p>阅读数</p>
+            </div>
+        </div>
+                                <div class="user_date">
+            <div class="date_img"><i class="icon-point"></i></div>
+            <div class="date_detail">
+                <p><span>2014年10月08日</span>，加入搜狐号</p>
+            </div>
+        </div>
+                <div class="user_sohu">
+            <div class="sohu_img"><i class="icon-point"></i></div>
+            <div class="sohu_detail"><span>在</span>
+                <a href="//k.sohu.com/index.html" target="_blank">搜狐新闻客户端</a><span>，拥有</span>
+                <span>6470</span><span>位订阅读者</span>
+            </div>
+        </div>
+                <div class="kuaixun">
+            <div class="kuaixun_title">
+                <p>快讯</p>
+            </div>
+            <div class="kuaixun_content">
+            </div>
+        </div>
+        <div class="about">
+            <p>联系我们&nbsp:&nbspsohump@sohu-inc.com</p><a
+                href="//mp.sohu.com/v2/main/help/faq-platform.action" target="_blank">关于我们&nbsp-&nbsp</a><a
+                href="//mp.sohu.com/v2/main/help/faq-register.action" target="_blank">运营规范&nbsp-&nbsp</a><a
+                href="//mp.sohu.com/v2/main/help/faq-agreement.action" target="_blank">服务协议&nbsp-&nbsp</a><a
+                href="//mp.sohu.com/v2/main/help/faq-tort.action" target="_blank">侵权投诉&nbsp-&nbsp</a><a
+                href="javascript:;" class="fankui">反馈建议<img
+                src="//www.sohu.com/upload/mps0/frontweb/images/2weima.png" class="mpweima"></a>
+            <p class="copyright">Copyright © 2017 Sohu.com Inc. All Rights Reserved.</p>
+        </div>
+    </div>
+</div>
+<div class="sidebar">
+    <div class="sidebar_gotop">
+        <div class="gotop_inner"><i></i></div>
+    </div>
+    <div class="sidebar_share">
+        <p>分享</p>
+        <div class="share">
+            <div class="weima"></div>
+            <a id="share-weibo" class="icon-weibo"></a><a href="javascript:;" class="icon-weixin"></a><a
+                id="share-qq" class="icon-qq"></a></div>
+    </div>
+</div>
+</body>
+<script>
+    var userName = '狐大医';
+    var xpt = 'aGVhbHRoLXNvaHVAc29odS5jb20=';
+</script>
+<script type="text/javascript" src="//www.sohu.com/upload/mps0/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="//www.sohu.com/upload/mps0/frontweb/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="//www.sohu.com/upload/mps0/frontweb/js/point.min.js"></script>
+<script type="text/javascript" src="//www.sohu.com/upload/mps0/frontweb/js/jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="//zmt.itc.cn/m/js/profile_index.min.js"></script>
+<script type="text/javascript" src="//a1.itc.cn/pv/js/spv.1309051632.js"></script>
+</html>
